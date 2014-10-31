@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_b"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="106dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:onClick="onClick1"
+        android:text="@string/button"
+        android:drawableLeft="@drawable/but_im"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/but_im"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:onClick="onClick6"
+        android:text="@string/good_data"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_alignBaseline="@+id/Button02"
+        android:layout_alignBottom="@+id/Button02"
+        android:layout_alignLeft="@+id/Button01"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/gmail"
+        android:gravity="center"
+        android:onClick="onClick4"
+        android:textColor="@color/blue1"
+        android:text="@string/contact"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/Button04"
+        android:layout_below="@+id/Button04"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/dropbox_logo"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:onClick="onClick3"
+        android:text="@string/more_info"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button1"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/but_im"
+        android:gravity="center"
+        android:onClick="onClick2"
+        android:text="@string/giut"
+        android:textColor="@color/blue1"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/eco_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blue1" 
+        android:textSize="26sp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/Button02"
+        android:layout_alignLeft="@+id/Button03"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/but_im"
+        android:gravity="center"
+        android:onClick="onClick5"
+        android:text="@string/giut_info"
+        android:textColor="@color/blue1"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

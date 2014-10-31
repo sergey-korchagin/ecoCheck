@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EcoCheck</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">נהלי מעבדת גהות</string>
+    <string name="giut">תקנות הגהות בעבודה</string>
+    <string name="title_activity_giut">Giut</string>
+    <string name="more_info">מידע נוסף </string>
+    <string name="contact">צור קשר</string>
+    <string name="exit">יציאה</string>
+    <string name="about">אודות</string>
+    <string name="title_activity_about">About</string>
+    <string name="G1">מעסיקים - הסבר לגבי התקנה</string>
+    <string name="G2">תקנת תכנית לניהול בטיחות 2012</string>
+    <string name="G3">עובדים בגורמים מזיקים 2011</string>
+    <string name="G4">עובדים באבק מזיק</string>
+    <string name="G5">עובדים באיזוציאנאטים</string>
+    <string name="G6">עובדים בוינילכלוריד</string>
+    <string name="G7">עובדים בחומרי הדברה</string>
+    <string name="G8">עובדים בממיסים ארומטיים</string>
+    <string name="G9">עובדים בממיסים הלוגניים</string>
+    <string name="G10"> עובדים במתכות מסוימות</string>
+    <string name="G11">עובדים בעופרת</string>
+    <string name="G12"> עובדים ברעש מזיק</string>
+    <string name="G13">עובדים בכספית</string>
+    <string name="G14">עובדים בבנזן</string>
+    <string name="G15">עובדים בזרניך</string>
+    <string name="to_main">מסך ראשי</string>
+    <string name="to_prog">פנה למפתח</string>
+    
+    <string name="odot">חוות דעת:\n
+  חוות דעת משפטיות בנושאי פגיעה תעסוקתית.\n
+         </string>
+    <string name="odot1">
+        מעבדת Eco Check – מוסמכת לביצוע:\n
+	הערכת סיכוני חשיפה בריאותית וסקר מקדים במקומות עבודה.
+	ניטור סביבתי תעסוקתי ודיווח מדידות בעמדות עבודה.
+	מדידות של מפלסי רעש במקומות עבודה.\n
+    </string>
+    <string name="odot2">ייעוץ:\n
+	ליווי תהליכי התייעלות ושמירה על סביבה בריאה וירוקה במקום העבודה.
+	הדרכה, הרצאות, ויעוץ פרטני בתחום הבריאות והגהות התעסוקתית. 
+	ליווי בתהליך אישור היתר רעלים וטיפול בחומרים מסוכנים.\n
+        
+    </string>
+    <string name="odot3">ניתוח גורמי זיהום ובדיקות סביבתיות: \n
+	.איכות אוויר וזיהום אוויר בסביבה תוך מבנית, תנאי נוחות ואקלים
+	איתור וזיהוי עובשים ומזהמים בקטריאליים במערכות אוורור, מיזוג וחלל החדר
+	קרינה אלקטרומגנטית ממערכות חשמל ואנטנות סלולריות. 
+	גז ראדון.\n
+        
+    </string>
+
+    <color name="blue">#F5F5F5</color>
+
+    <string name="full_site">http://www.ecocheck.co.il  :אתר המלא</string>
+    <string name="phone">035362600</string>
+    <string name="good_data">מעבדת - EcoCheck</string>
+    <string name="giut_info">מידע על גורמי סיכון</string>
+    <string name="title_activity_giut_info">Giut_info</string>
+    <string name="title_activity_good_data">GoodData</string>
+    <string name="NG1">נוהל ביצוע ניטור סביבתי תעסוקתי</string>
+    <string name="NG2">נוהל סקר מקדים לצורך קביעת תכנית ניטור סביבתי תעסוקתי</string>
+    <string name="NG3">סיכום החלטת הועדה לחישוב של 200 שעות חשיפה לצורך הגדרת העובד כעובד ברעש מזיק</string>
+    <string name="NG4">נוהל ריווח בדיקות סביבתיות תעסוקתיות</string>
+    <color name="black">#000000</color>
+    <string name="GD1"> פרופיל חברה</string>
+    <string name="GD2">ברושור אינדור</string>
+    <string name="GD3">ברושור גהות תעסוקתית</string>
+    <string name="GD4">פנקס ממוני בטיחות</string>
+    <string name="GI2">ארגונומיה</string>
+    <string name="GI1">אבק מזיק</string>
+    <string name="GI3">חשיפה לשדות מגנטיים וחשמליים</string>
+    <string name="GI4">מתכות</string>
+    <string name="GI5">עקרונות ארגונומיים</string>
+    <string name="GI6">קרינה סלולרית</string>
+    <string name="GI7">רעש מזיק ופגיעת שמיעה</string>
+    <string name="GI8">רעש מזיק</string>
+    <string name="eco_name">מעבדה לניטור תעסוקתי סביבתי</string>
+    <string name="about_koteret">מומחים בתחומי הבריאות והגהות בסביבה, בתעסוקה ובאיכות אוויר בסביבה תוך מבנית 
+         </string>
+    <string name="menael">מנהל המעבדה, דר נתן עמית, הינו חבר בוועדה הממשלתית העוסקת בנושאי גהות תעסוקתית.\n </string>
+    <string name="daf_kesher">
+        צור קשר עוד היום:\n
+        ערן בן קנז - מנכל - 054-564-6136\n
+        דר נתן עמית - מנכל משותף - 054-453-0049\n
+נעם קרפ - מנהל תחום גהות - 050-253-0019\n 
+איליה פוליאקוב - מנהל תחום סביבה ורעש - 055-662-8121\n
+
+</string>
+    <string name="office">משרד:</string>
+    <string name="mail">info@ecocheck.co.il</string>
+    <color name="azure">#E0EEEE</color>
+    <color name="blue1">#00008B</color>
+    <color name="yellow">#9ACD32</color>
+    <string name="temp">Temp</string>
+    <string name="GI9">הערכת סיכוני חשיפה ומדדי איכות אוויר תוך מבנית</string>
+    <string name="G16">תקנות 2011 כולל תיקונים</string>
+    
+</resources>

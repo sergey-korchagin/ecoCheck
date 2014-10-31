@@ -1,0 +1,265 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_land_b1"
+    tools:context=".Giut"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:text="@string/giut"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="26sp"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbarSize="10dp"
+android:scrollbars="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" 
+       >
+<TableRow>
+    <Button
+      	android:id="@+id/ButtonG1"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G1"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+        android:textColor="@color/blue1"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic"
+        android:tag="G1" />
+    <Button
+        android:tag="G2"
+      	android:id="@+id/ButtonG2"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:text="@string/G2"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    </TableRow>
+    <TableRow>
+    <Button
+        android:tag="G3"
+        android:textColor="@color/blue1"
+      	android:id="@+id/ButtonG3"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G3"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    <Button
+        android:tag="G4"
+      	android:id="@+id/ButtonG4"
+      	android:textColor="@color/blue1"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G4"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    </TableRow>
+     <TableRow>
+    <Button
+        android:tag="G5"
+      	android:id="@+id/ButtonG5"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G5"
+        android:textColor="@color/blue1"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    <Button
+        android:tag="G6"
+      	android:id="@+id/ButtonG6"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G6"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+       android:onClick="onClickGiut"
+       android:textColor="@color/blue1"
+        android:textStyle="bold|italic" />
+    </TableRow>
+     <TableRow>
+      <Button
+          android:tag="G7"
+      	android:id="@+id/ButtonG7"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G7"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textColor="@color/blue1"
+        android:textSize="15sp"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    <Button
+        android:tag="G8"
+      	android:id="@+id/ButtonG8"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:text="@string/G8"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    </TableRow>
+     <TableRow>
+    <Button
+        android:tag="G9"
+      	android:id="@+id/ButtonG9"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G9"
+        android:textColor="@color/blue1"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    <Button
+        android:tag="G10"
+      	android:id="@+id/ButtonG10"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G10"
+        android:textColor="@color/blue1"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    </TableRow>
+      <TableRow>
+    <Button
+        android:tag="G11"
+      	android:id="@+id/ButtonG11"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G11"
+        android:textColor="@color/blue1"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+       android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    <Button
+        android:tag="G12"
+      	android:id="@+id/ButtonG12"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G12"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+        android:textColor="@color/blue1"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    </TableRow>
+      <TableRow>
+    <Button
+        android:tag="G13"
+      	android:id="@+id/ButtonG13"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="@color/blue1"
+        android:gravity="center"
+        android:text="@string/G13"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+       android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    <Button
+        android:tag="G14"
+      	android:id="@+id/ButtonG14"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/G14"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textColor="@color/blue1"
+        android:textSize="15sp"
+        android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    </TableRow>
+      <TableRow>
+    <Button
+        android:tag="G15"
+      	android:id="@+id/ButtonG15"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:text="@string/G15"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+       android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+    
+    <Button
+        android:tag="G16"
+      	android:id="@+id/ButtonG16"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:text="@string/G16"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="15sp"
+       android:onClick="onClickGiut"
+        android:textStyle="bold|italic" />
+   
+    </TableRow>
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

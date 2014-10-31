@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_land_b1" >
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="32dp"
+        android:layout_toLeftOf="@+id/Button01"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/but_im"
+        android:textColor="@color/blue1"
+        android:gravity="center"
+        android:onClick="onClick6"
+        android:text="@string/good_data"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_alignTop="@+id/Button04"
+        android:background="@drawable/button_background"
+        android:textColor="@color/blue1"
+        android:drawableLeft="@drawable/gmail"
+        android:gravity="center"
+        android:onClick="onClick4"
+        android:text="@string/contact"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/Button04"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/blue1"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/but_im"
+        android:gravity="center"
+        android:onClick="onClick2"
+        android:text="@string/giut"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/Button04"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/Button01"
+        android:background="@drawable/button_background"
+        android:textColor="@color/blue1"
+        android:drawableLeft="@drawable/but_im"
+        android:gravity="center"
+        android:onClick="onClick5"
+        android:text="@string/giut_info"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_alignBaseline="@+id/Button03"
+        android:layout_alignBottom="@+id/Button03"
+        android:layout_alignLeft="@+id/Button05"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/dropbox_logo"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:onClick="onClick3"
+        android:text="@string/more_info"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="272dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/blue1"
+        android:drawableLeft="@drawable/but_im"
+        android:gravity="center"
+        android:onClick="onClick1"
+        android:text="@string/button"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/eco_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blue1"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" 
+        android:paddingBottom="16dp"/>
+    
+</RelativeLayout>

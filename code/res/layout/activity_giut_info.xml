@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_b"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Giut_info" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:text="@string/giut_info"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:padding="13dp" />
+    
+       <TableLayout
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center"
+android:stretchColumns="*">
+<TableRow>
+
+    <Button
+        android:id="@+id/ButtonB1"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:gravity="center"
+        android:onClick="onClickGI"
+        android:tag="GI1"
+        android:textColor="@color/blue1"
+        android:text="@string/GI1"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+</TableRow>
+<TableRow >
+    <Button
+      	android:id="@+id/ButtonB2"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:text="@string/GI2"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="20sp"
+        android:onClick="onClickGI"
+        android:textStyle="bold|italic"
+        android:tag="GI2" />
+    </TableRow>
+    <TableRow>
+    <Button
+      	android:id="@+id/ButtonB3"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/GI3"
+        android:textColor="@color/blue1"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="20sp"
+        android:onClick="onClickGI"
+        android:textStyle="bold|italic"
+        android:tag="GI3" />
+</TableRow>
+    <TableRow >
+    <Button
+      	android:id="@+id/ButtonB4"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/GI4"
+        android:textColor="@color/blue1"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="20sp"
+        android:onClick="onClickGI"
+        android:textStyle="bold|italic" 
+        android:tag="GI4"/>
+    </TableRow>
+    <TableRow>
+
+    <Button
+        android:id="@+id/ButtonB5"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:gravity="center"
+        android:onClick="onClickGI"
+        android:textColor="@color/blue1"
+        android:tag="GI5"
+        android:text="@string/GI5"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+</TableRow>
+<TableRow >
+    <Button
+      	android:id="@+id/ButtonB6"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:textColor="@color/blue1"
+        android:text="@string/GI6"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="20sp"
+        android:onClick="onClickGI"
+        android:textStyle="bold|italic"
+        android:tag="GI6" />
+    </TableRow>
+    <TableRow>
+    <Button
+      	android:id="@+id/ButtonB7"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/GI7"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textColor="@color/blue1"
+        android:textSize="20sp"
+        android:onClick="onClickGI"
+        android:textStyle="bold|italic"
+        android:tag="GI7" />
+</TableRow>
+    <TableRow >
+    <Button
+      	android:id="@+id/ButtonB8"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/GI8"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="20sp"
+        android:textColor="@color/blue1"
+        android:onClick="onClickGI"
+        android:textStyle="bold|italic" 
+        android:tag="GI8"/>
+    </TableRow>
+     <TableRow >
+    <Button
+      	android:id="@+id/ButtonB9"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/GI9"
+        android:drawableLeft="@drawable/icon_pdf"
+        android:textSize="20sp"
+        android:textColor="@color/blue1"
+        android:onClick="onClickGI"
+        android:textStyle="bold|italic" 
+        android:tag="GI9"/>
+    </TableRow>
+    </TableLayout>
+</LinearLayout>
